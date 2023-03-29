@@ -10,9 +10,8 @@
  */
 
 const splitFirstAndLastNames = (str) => {
-  return str.split(' ');
-}
-
+  return str.split(" ");
+};
 
 /** =========================
  * The personAge() constant is assigned to a function, that takes an object of person Data as the argument.
@@ -22,8 +21,7 @@ const splitFirstAndLastNames = (str) => {
 
 const personAge = (personObject) => {
   return personObject.age;
-}
-
+};
 
 /** =========================
  * The isNameInArray function takes an array and string of name as the arguments.
@@ -34,8 +32,7 @@ const personAge = (personObject) => {
 
 const isNameInArray = (arr, name) => {
   return arr.includes(name);
-}
-
+};
 
 /** =========================
  * The logTimer function takes a number as the arguments.
@@ -53,15 +50,12 @@ const logSecondsUpToMax = (max) => {
       clearInterval(timer);
     }
   }, 1000);
-}
-
-
+};
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-4"
 // If the test has all tests passed, switch to the next exercise file
 // If any of the tests fails, refactor the code and run the test command after you've fixed the function
-
 
 // Do not delete or change the lines beneath
 const f = {
@@ -69,5 +63,5 @@ const f = {
   personAge: personAge || undefined,
   isNameInArray: isNameInArray || undefined,
   logSecondsUpToMax: logSecondsUpToMax || undefined,
-}
-export { f }
+};
+export { f };
